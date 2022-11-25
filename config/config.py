@@ -17,14 +17,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "18641113"))
+API_HASH = getenv("bc5fea81e7bf9f3c0784a0a7d35f9c71")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("5956706662:AAF5PS_-GSp3LvvW0w3Pox96moa5DTamEqg")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority", None)
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001818725213"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("Darlzzz music")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "5323266323").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -138,7 +138,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("AQCgpLktQWnexbJJiDPXzupmVCBIpK_Cz8XqY8-tFFOGyL1KjJsWWREV5iE0tlH4kb7DUDOzjtXQVSKbdUAjcGnEepj9TQKa-qRDcDkjo4hnuedsPNlL4Bkhkj123QF6wh1IOYJJvd8VmwyZFF8uN18z1tTW8FqCkkvPqWENR7J9-daGTYTqdGulW0QXwcSSmlH7cpnbkZwj9RgHLyuLCFfiCwJmDCSZSTarrVnqrSBE4B-tux4FSIYqzBk6SlmWtIHuLgUnCuUJIrcEpnphVJGdN24GbEVxwNOtspQfg4EGKbhq-ucm6jktDBP8Nub-n4c5ZeRkJEFzlraPNJchqyRHAAAAAUjrsBAA", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -168,7 +168,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", None)
+START_IMG_URL = getenv("https://telegra.ph/file/fb0e44e5484778b512a0d.jpg", None)
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
